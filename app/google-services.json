@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "211177148996",
+    "firebase_url": "https://agrotech-6720a-default-rtdb.firebaseio.com",
+    "project_id": "agrotech-6720a",
+    "storage_bucket": "agrotech-6720a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211177148996:android:10724045289aea1f3e2211",
+        "android_client_info": {
+          "package_name": "com.mitul.agrotech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211177148996-klt5kbiaf171ahp4aipbfcnmu2cn4dms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOJtQWFaUMlNCwUKG9Zg6ftiErpWqArOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211177148996-klt5kbiaf171ahp4aipbfcnmu2cn4dms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

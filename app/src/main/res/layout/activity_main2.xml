@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Text"
+            android:textSize="20sp">
+
+        </TextView>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/txt"
+            android:padding="10dp">
+            <Button
+                android:id="@+id/copy_bton"
+                android:text="কপি"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_border"
+                android:layout_marginRight="5dp"
+                android:textColor="#ffff"
+                />
+            <Button
+                android:id="@+id/share_bton"
+                android:text="শেয়ার"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_border"
+                android:layout_marginLeft="5dp"
+                android:textColor="#ffff"/>
+            <Button
+                android:id="@+id/ques_bton"
+                android:text="জিজ্ঞাসা"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_border"
+                android:layout_marginLeft="5dp"
+                android:textColor="#ffff"/>
+        </TableRow>
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
